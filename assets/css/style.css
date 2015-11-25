@@ -1,0 +1,94 @@
+/*---------------------- Sidebar Style ------------------------*/
+.sidebar-bg {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+}
+body {
+	background-color: #d3d3d3;
+}
+/*---------------------- Main Style ------------------------*/
+.center-text {
+	text-align: center;
+}
+.category-flap {
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.green-bg {
+	background-color: #6D8673;
+}
+.green-bg-white {
+	background-color: #6D8673;
+	color: #fff;
+}
+.light-gray-bg {
+	background-color: #ededed;
+}
+.light-gray-bg-black {
+	background-color: #ededed;
+	color: #000;
+}
+.light-gray-bg-black:hover {
+	background-color: #fff;
+	color: #000;
+}
+.hide-cell {
+	display: none;
+}
+.no-pad {
+	padding: 0px;
+}
+.show-cell {
+	display: block;
+}
+.black-text {
+	color: #000;
+}
+/*---------------------- Buttons --------------------------*/
+.long-green-btn {
+	width: 100%;
+    background-color: #6D8673;
+    color: #fff;
+    -webkit-transition: all ease-out 150ms;
+    -moz-transition: all ease-out 150ms;
+    -o-transition: all ease-out 150ms;
+    transition: all ease-out 150ms;
+}
+.long-green-btn:hover {
+    background-color: #ededed;
+    -webkit-transition: all ease-out 150ms;
+    -moz-transition: all ease-out 150ms;
+    -o-transition: all ease-out 150ms;
+    transition: all ease-out 150ms;
+}
+.md-btn {
+	width: 50%;
+}
+.fa-input {
+	font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.plus-btn {
+	font-size: 28px !important;
+	cursor: pointer;
+}
+.plus-btn:hover {
+	color: #ededed;
+}
+.chevron-btn {
+	font-size: 20px !important;
+	cursor: pointer;
+}
+.chevron-btn:hover {
+	color: #ededed;
+}
+.remove-btn {
+	font-size: 20px !important;
+	cursor: pointer;
+}
+.remove-btn:hover {
+	color: #ededed;
+}
